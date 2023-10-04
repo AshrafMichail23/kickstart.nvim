@@ -23,8 +23,8 @@ require('lazy').setup({
     priority = 1000,
     opts = {},
     config = function()
-        vim.o.termguicolors = true
-        vim.cmd.colorscheme("night-owl")
+        vim.o.termguicolors = false
+        vim.cmd.colorscheme("slate")
     end,
   },
   -- Git related plugins
@@ -438,4 +438,5 @@ cmp.setup {
     { name = 'luasnip' },
   },
 }
+
 
