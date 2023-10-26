@@ -452,3 +452,6 @@ vim.keymap.set('', 's', function() hop.hint_char1({ current_line_only = false })
 
 -- Configure fugitive
 vim.api.nvim_set_keymap('', '<leader>g', ':Gvdiffsplit!<CR>', {noremap = true, silent = true})
+
+-- Transparent background
+vim.cmd.highlight("Normal guibg=none")
