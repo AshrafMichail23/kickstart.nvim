@@ -461,3 +461,9 @@ vim.cmd.highlight("Normal guibg=none")
 
 -- Copilot
 vim.g.copilot_assume_mapped = true
+vim.g.copilot_filetypes = {
+    ["*"] = false,
+    ["c"] = true,
+    ["cpp"] = true,
+    ["python"] = true,
+}
