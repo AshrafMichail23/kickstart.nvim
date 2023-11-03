@@ -458,3 +458,6 @@ vim.api.nvim_set_keymap('', '<leader>g', ':Gvdiffsplit!<CR>', {noremap = true, s
 
 -- Transparent background
 vim.cmd.highlight("Normal guibg=none")
+
+-- Copilot
+vim.g.copilot_assume_mapped = true
